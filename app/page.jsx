@@ -840,7 +840,7 @@ export default function Home() {
                             <th scope="col" className="px-4 py-3 text-left text-sm font-medium text-gray-800 uppercase tracking-wider">Name</th>
                             <th scope="col" className="px-4 py-3 text-left text-sm font-medium text-gray-800 uppercase tracking-wider">Type</th>
                             <th scope="col" className="px-4 py-3 text-left text-sm font-medium text-gray-800 uppercase tracking-wider">Class</th>
-                            <th scope="col" className="px-4 py-3 text-left text-sm font-medium text-gray-800 uppercase tracking-wider">IC50</th>
+                            <th scope="col" className="px-4 py-3 text-left text-sm font-medium text-gray-800 uppercase tracking-wider">IC50 (nM)</th>
                             {/* Descriptor columns */}
                             {['RDF20e', 'SpMin2_Bhm', 'WPSA-3', 'SpMin2_Bhe', 'RDF125i', 'RDF120s', 
                               'RDF20i', 'ALogP', 'RDF20u', 'RDF135u', 'RDF20s', 'RDF20v', 'RDF135v', 
