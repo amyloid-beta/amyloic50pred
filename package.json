@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "flask-dev": "pip3 install -r requirements.txt && python -m flask --app api/app run -p 5328",
+    "flask-dev": "python3 -m flask --app api/app run -p 5328",
     "next-dev": "next dev",
     "dev": "concurrently \"npm run next-dev\" \"npm run flask-dev\"",
     "build": "next build",
@@ -19,6 +19,9 @@
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.2",
     "framer-motion": "^12.12.2",
+    "jsme": "^2017.2.26",
+    "ketcher-react": "^3.8.0",
+    "ketcher-standalone": "^3.8.0",
     "next": "13.4.3",
     "postcss": "8.4.23",
     "react": "18.2.0",
